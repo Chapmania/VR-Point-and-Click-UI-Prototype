@@ -27,4 +27,8 @@ public class UIController : MonoBehaviour {
    
         output.text += value + ", ";
     }
+
+    public void SliderChange(Slider slider) {
+        output.text = slider.value.ToString();
+    }
 }
